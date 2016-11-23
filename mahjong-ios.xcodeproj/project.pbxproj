@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2270CFD01DE60330009CFA76 /* MGMahjongPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270CFCF1DE60330009CFA76 /* MGMahjongPlayer.m */; };
+		2270CFD31DE603C6009CFA76 /* MGMahjongGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270CFD21DE603C6009CFA76 /* MGMahjongGame.m */; };
 		22AB3D931DE5DF7B001FE71F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3D921DE5DF7B001FE71F /* main.m */; };
 		22AB3D961DE5DF7B001FE71F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3D951DE5DF7B001FE71F /* AppDelegate.m */; };
 		22AB3D981DE5DF7C001FE71F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22AB3D971DE5DF7C001FE71F /* GameScene.sks */; };
@@ -18,6 +20,7 @@
 		22AB3DA81DE5DF7C001FE71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AB3DA61DE5DF7C001FE71F /* LaunchScreen.storyboard */; };
 		22AB3DB31DE5DF7D001FE71F /* mahjong_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3DB21DE5DF7D001FE71F /* mahjong_iosTests.m */; };
 		22AB3DBE1DE5DF7D001FE71F /* mahjong_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3DBD1DE5DF7D001FE71F /* mahjong_iosUITests.m */; };
+		22AB3DD31DE5EF1A001FE71F /* MGMahjongUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3DD21DE5EF1A001FE71F /* MGMahjongUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2270CFCE1DE60319009CFA76 /* MGMahjongPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGMahjongPlayer.h; sourceTree = "<group>"; };
+		2270CFCF1DE60330009CFA76 /* MGMahjongPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMahjongPlayer.m; sourceTree = "<group>"; };
+		2270CFD11DE603AD009CFA76 /* MGMahjongGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGMahjongGame.h; sourceTree = "<group>"; };
+		2270CFD21DE603C6009CFA76 /* MGMahjongGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMahjongGame.m; sourceTree = "<group>"; };
 		22AB3D8E1DE5DF7B001FE71F /* mahjong-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mahjong-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AB3D921DE5DF7B001FE71F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22AB3D941DE5DF7B001FE71F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +65,8 @@
 		22AB3DB91DE5DF7D001FE71F /* mahjong-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mahjong-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AB3DBD1DE5DF7D001FE71F /* mahjong_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mahjong_iosUITests.m; sourceTree = "<group>"; };
 		22AB3DBF1DE5DF7D001FE71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AB3DD11DE5EF02001FE71F /* MGMahjongUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGMahjongUtil.h; sourceTree = "<group>"; };
+		22AB3DD21DE5EF1A001FE71F /* MGMahjongUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMahjongUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +130,12 @@
 				22AB3DA61DE5DF7C001FE71F /* LaunchScreen.storyboard */,
 				22AB3DA91DE5DF7C001FE71F /* Info.plist */,
 				22AB3D911DE5DF7B001FE71F /* Supporting Files */,
+				22AB3DD11DE5EF02001FE71F /* MGMahjongUtil.h */,
+				22AB3DD21DE5EF1A001FE71F /* MGMahjongUtil.m */,
+				2270CFCE1DE60319009CFA76 /* MGMahjongPlayer.h */,
+				2270CFCF1DE60330009CFA76 /* MGMahjongPlayer.m */,
+				2270CFD11DE603AD009CFA76 /* MGMahjongGame.h */,
+				2270CFD21DE603C6009CFA76 /* MGMahjongGame.m */,
 			);
 			path = "mahjong-ios";
 			sourceTree = "<group>";
@@ -289,7 +304,10 @@
 				22AB3DA01DE5DF7C001FE71F /* GameViewController.m in Sources */,
 				22AB3D961DE5DF7B001FE71F /* AppDelegate.m in Sources */,
 				22AB3D9D1DE5DF7C001FE71F /* GameScene.m in Sources */,
+				22AB3DD31DE5EF1A001FE71F /* MGMahjongUtil.m in Sources */,
+				2270CFD31DE603C6009CFA76 /* MGMahjongGame.m in Sources */,
 				22AB3D931DE5DF7B001FE71F /* main.m in Sources */,
+				2270CFD01DE60330009CFA76 /* MGMahjongPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +537,7 @@
 				22AB3DC41DE5DF7D001FE71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22AB3DC51DE5DF7D001FE71F /* Build configuration list for PBXNativeTarget "mahjong-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +546,7 @@
 				22AB3DC71DE5DF7D001FE71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22AB3DC81DE5DF7D001FE71F /* Build configuration list for PBXNativeTarget "mahjong-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +555,7 @@
 				22AB3DCA1DE5DF7D001FE71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
