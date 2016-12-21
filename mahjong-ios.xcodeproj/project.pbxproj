@@ -21,6 +21,7 @@
 		22AB3DB31DE5DF7D001FE71F /* mahjong_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3DB21DE5DF7D001FE71F /* mahjong_iosTests.m */; };
 		22AB3DBE1DE5DF7D001FE71F /* mahjong_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3DBD1DE5DF7D001FE71F /* mahjong_iosUITests.m */; };
 		22AB3DD31DE5EF1A001FE71F /* MGMahjongUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3DD21DE5EF1A001FE71F /* MGMahjongUtil.m */; };
+		99F721301E0AA699002C0B13 /* MGMahjongScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F7212F1E0AA699002C0B13 /* MGMahjongScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		22AB3DBF1DE5DF7D001FE71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AB3DD11DE5EF02001FE71F /* MGMahjongUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGMahjongUtil.h; sourceTree = "<group>"; };
 		22AB3DD21DE5EF1A001FE71F /* MGMahjongUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMahjongUtil.m; sourceTree = "<group>"; };
+		99F7212F1E0AA699002C0B13 /* MGMahjongScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMahjongScore.m; sourceTree = "<group>"; };
+		99F721311E0AA6FB002C0B13 /* MGMahjongScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGMahjongScore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				2270CFCF1DE60330009CFA76 /* MGMahjongPlayer.m */,
 				2270CFD11DE603AD009CFA76 /* MGMahjongGame.h */,
 				2270CFD21DE603C6009CFA76 /* MGMahjongGame.m */,
+				99F721311E0AA6FB002C0B13 /* MGMahjongScore.h */,
+				99F7212F1E0AA699002C0B13 /* MGMahjongScore.m */,
 			);
 			path = "mahjong-ios";
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				2270CFD31DE603C6009CFA76 /* MGMahjongGame.m in Sources */,
 				22AB3D931DE5DF7B001FE71F /* main.m in Sources */,
 				2270CFD01DE60330009CFA76 /* MGMahjongPlayer.m in Sources */,
+				99F721301E0AA699002C0B13 /* MGMahjongScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

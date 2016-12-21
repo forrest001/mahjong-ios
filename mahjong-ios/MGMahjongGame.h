@@ -16,4 +16,5 @@
 @property (nonatomic, assign) int kyoku;
 @property (nonatomic, assign) int ba;
 @property (nonatomic, assign) int kyoutaku;
+@property (nonatomic, strong) NSDictionary players; //MGMahjongPlayer
 @end

@@ -8,6 +8,7 @@
 
 #ifndef MGMahjongUtil_h
 #define MGMahjongUtil_h
+#import "MGMahjongScore.h"
 
 
 #endif /* MGMahjongUtil_h */
@@ -16,8 +17,8 @@
 
 //@property (nonatomic, assign) NSInteger
 
-+ (void)checkYakuWithTehaibj;
-+ (void)calculateScoreWithTehai;
++ (MGMahjongScore*)checkYakuWithTehaibj:(NSArray*)tehai isTumo:(BOOL)isTumo;
++ (NSInteger)calculateFuWithTehai:(NSArray*)tehai isTumo:(BOOL)isTumo;
 + (void)checkAgariWithTehai;
 
 
